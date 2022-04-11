@@ -101,7 +101,8 @@ if(player === "X"){
 
 
   return (
-      <div className='container'><h1>Tic Tac Toe</h1>
+      <div className='container'>
+        <h1>Tic Tac Toe</h1>
 <div className='status'>{gameStatus}</div>
 <Board squares={squares} clickHandler={handleClick} />
 <button onClick={reset} className='reset'>Reset</button>
